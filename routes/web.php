@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/team','MyController@team');
+Route::get('/dept_show','DeptController@index');
+Route::get('/Employee_show','EmployeeController@Employee_show');
