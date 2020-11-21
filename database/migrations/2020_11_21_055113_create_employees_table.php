@@ -21,7 +21,7 @@ class CreateEmployeesTable extends Migration
             $table->string('salary');
             $table->string('status');
             $table->foreign('dept_id');
-            $table->foreign('rezaul_id');
+
 
 
             $table->timestamps();
